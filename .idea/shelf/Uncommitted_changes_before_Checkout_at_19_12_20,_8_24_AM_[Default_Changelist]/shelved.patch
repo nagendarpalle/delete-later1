@@ -1,0 +1,18 @@
+Index: src/Package1/Test1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package Package1;\n\npublic class Test1 {\n    public static void main(String[] args) {\n        System.out.println(\"Mamulga undadhu mantho\");\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Package1/Test1.java b/src/Package1/Test1.java
+--- a/src/Package1/Test1.java	(revision bc2635933f9ae1f3494929c25952ec1c67375917)
++++ b/src/Package1/Test1.java	(date 1608395020279)
+@@ -2,6 +2,7 @@
+ 
+ public class Test1 {
+     public static void main(String[] args) {
++
+         System.out.println("Mamulga undadhu mantho");
+     }
+ }
